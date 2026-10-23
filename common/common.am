@@ -62,6 +62,7 @@ pdf: pdf-setup pdf-prep
 		--variable version=2.0 \
 		--variable colorlinks=true \
 		../../header.txt $(SOURCES) ../../../common/appendix_head.txt $(APPENDIX) \
+		--lua-filter=../../../common/pdf-links.lua \
 		--pdf-engine=xelatex \
 		--toc \
 		-o ../../$(PDF)
