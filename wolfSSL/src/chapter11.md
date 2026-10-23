@@ -242,7 +242,7 @@ EchoClient:
 * [`wolfSSLv23_client_method();`](group__Setup.md#function-wolfsslv23_client_method) - Use highest version possible from SSL 3.0 - TLS 1.3
 * [`wolfDTLSv1_client_method();`](group__Setup.md#function-wolfdtlsv1_client_method) - DTLS 1.0
 * [`wolfDTLSv1_2_client_method_ex();`](ssl_8h.md#function-wolfdtlsv1_2_client_method_ex) - DTLS 1.2
-* [`wolfDTLSv1_3_client_method_ex();`](ssl_8h.md#function-wolfdtlsv1_3_client_method_ex) - DTLS 1.3
+* `wolfDTLSv1_3_client_method_ex();` - DTLS 1.3
 
 EchoServer:
 

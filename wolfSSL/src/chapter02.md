@@ -1742,7 +1742,7 @@ Enables RSA PSS padding. The only TLS 1.3 RSA padding scheme supported is PSS (p
 
 #### WOLFSSL_RSA_VERIFY_ONLY
 
-Turns on small build for RSA verify only use. Should be used with the macros [`WOLFSSL_RSA_PUBLIC_ONLY`](#wolfssl_rsa_public_only), [`WOLFSSL_RSA_VERIFY_INLINE`](#wolfssl_rsa_verify_inline), [`NO_SIG_WRAPPER`](#no_sig_wrapper), and [`WOLFCRYPT_ONLY`](#wolfcrypt_only).
+Turns on small build for RSA verify only use. Should be used with the macros [`WOLFSSL_RSA_PUBLIC_ONLY`](#wolfssl_rsa_public_only), [`WOLFSSL_RSA_VERIFY_INLINE`](#wolfssl_rsa_verify_inline), `NO_SIG_WRAPPER`, and [`WOLFCRYPT_ONLY`](#wolfcrypt_only).
 
 #### WOLFSSL_RSA_PUBLIC_ONLY
 
@@ -1780,7 +1780,7 @@ Enables testing mode for Apple native certificate validation. Used for unit test
 
 #### WOLFSSL_CUSTOM_CURVES
 
-Allow non-standard curves. Includes the curve "a" variable in calculation. Additional curve types can be enabled using [`HAVE_ECC_SECPR2`](#have_ecc_secpr2), [`HAVE_ECC_SECPR3`](#have_ecc_secpr3), [`HAVE_ECC_BRAINPOOL`](#have_ecc_brainpool) and [`HAVE_ECC_KOBLITZ`](#have_ecc_koblitz).
+Allow non-standard curves. Includes the curve "a" variable in calculation. Additional curve types can be enabled using `HAVE_ECC_SECPR2`, `HAVE_ECC_SECPR3`, `HAVE_ECC_BRAINPOOL` and `HAVE_ECC_KOBLITZ`.
 
 #### HAVE_COMP_KEY
 
@@ -3282,11 +3282,11 @@ Enables AES acceleration using ARM CryptoCell hardware. Requires the CryptoCell 
 
 #### WOLFSSL_DEVCRYPTO_AES
 
-Enables AES acceleration via Linux `/dev/crypto` interface. Requires [`WOLFSSL_DEVCRYPTO`](#wolfssl_devcrypto).
+Enables AES acceleration via Linux `/dev/crypto` interface. Requires `WOLFSSL_DEVCRYPTO`.
 
 #### WOLFSSL_DEVCRYPTO_CBC
 
-Enables AES-CBC acceleration via Linux `/dev/crypto` interface. Requires [`WOLFSSL_DEVCRYPTO`](#wolfssl_devcrypto).
+Enables AES-CBC acceleration via Linux `/dev/crypto` interface. Requires `WOLFSSL_DEVCRYPTO`.
 
 #### WOLFSSL_KCAPI_AES
 

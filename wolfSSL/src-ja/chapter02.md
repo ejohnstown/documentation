@@ -1154,7 +1154,7 @@ PSSパディングはランダムパディングを使用します。
 #### WOLFSSL_RSA_VERIFY_ONLY
 
 RSA用の小さなビルドをオンにします。
-[`WOLFSSL_RSA_PUBLIC_ONLY`](#wolfSSL_rsa_public_only)、[`WOLFSSL_RSA_VERIFY_INLINE`](#wolfSSL_rsa_verify_inline)、[`NO_SIG_WRAPPER`](#no_sig_wrapper)、[`WOLFCRYPT_ONLY`](#wolfcrypt_only)を定義してください。
+[`WOLFSSL_RSA_PUBLIC_ONLY`](#wolfSSL_rsa_public_only)、[`WOLFSSL_RSA_VERIFY_INLINE`](#wolfSSL_rsa_verify_inline)、`NO_SIG_WRAPPER`、[`WOLFCRYPT_ONLY`](#wolfcrypt_only)を定義してください。
 
 #### WOLFSSL_RSA_PUBLIC_ONLY
 

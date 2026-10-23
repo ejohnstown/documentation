@@ -35,7 +35,7 @@ wolfSSLは[`wolfSSLv23_server_method()`](group__Setup.md#function-wolfsslv23_ser
 
 ### クライアント関数
 
-* [`wolfDTLSv1_client_method()`](group__Setup.md#function-v1_client_method) - DTLS 1.0
+* [`wolfDTLSv1_client_method()`](group__Setup.md#function-wolfdtlsv1_client_method) - DTLS 1.0
 * [`wolfDTLSv1_2_client_method_ex()`](ssl_8h.md#function-wolfdtlsv1_2_client_method_ex) - DTLS 1.2
 * [`wolfSSLv3_client_method()`](group__Setup.md#function-wolfsslv3_client_method) - SSL 3.0
 * [`wolfTLSv1_client_method()`](group__Setup.md#function-wolftlsv1_client_method) - TLS 1.0
